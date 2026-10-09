@@ -15,7 +15,7 @@
 <body>
 
 <h1>FieldSort Privacy Policy</h1>
-<p class="updated">Last updated: August 25, 2026</p>
+<p class="updated">Last updated: October 9, 2026</p>
 
 <p>FieldSort ("the app") is a field data capture tool for photographing tagged
 subjects, reading tags with on-device OCR, and organizing and exporting the
@@ -25,7 +25,9 @@ resulting photos. This page explains what data the app handles and how.</p>
 <p>FieldSort stores everything locally on your device. It does not have user
 accounts, does not send your photos or field data to any server, does not use
 analytics or tracking, and does not show ads. The only data that ever leaves
-your device is what you deliberately export or share yourself.</p>
+your device is what you deliberately export or share yourself, and, when you
+open the map to pin a site, the requests for the map images (see "Map"
+below).</p>
 
 <h2>Camera</h2>
 <p>FieldSort requests access to your device's camera to let you photograph
@@ -35,10 +37,29 @@ sent anywhere by the app itself.</p>
 
 <h2>Session and site information</h2>
 <p>Site names, optional coordinates, notes, tag codes, and session details
-you enter are stored in a local database on your device. Site coordinates,
-if you choose to enter them, are typed in manually — FieldSort does not
-access your device's GPS or location services, and no location permission
-is requested.</p>
+you enter are stored in a local database on your device. Site coordinates
+are optional: you can type them, take them from your device's position, or
+pin them on a map.</p>
+
+<h2>Location</h2>
+<p>FieldSort asks for permission to use your location only when you tap
+"Current location" or "Where I am" to place a site, and only while the app
+is in use. It never tracks your location in the background.</p>
+<p>Once you have allowed it, FieldSort also notes where your device was when
+each photo was taken (the "shot position"), using the position your device
+already knows, for audit purposes. It is stored on your device with the
+photo and appears in the CSV manifest when you export; it is never sent
+anywhere by the app. You can withdraw the permission at any time in your
+device's settings; FieldSort keeps working without it.</p>
+
+<h2>Map</h2>
+<p>The map used to pin a site shows images ("tiles") from OpenStreetMap's
+tile servers, operated by the OpenStreetMap Foundation. To show them, your
+device requests the tiles for the area you look at, which gives those
+servers your IP address and that area, as with any website. No photos,
+tags, or other field data are sent. See the
+<a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap
+Foundation privacy policy</a>. The map is only loaded when you open it.</p>
 
 <h2>Exporting your data</h2>
 <p>When you export a session, FieldSort writes photo files (and an optional
@@ -58,7 +79,7 @@ receives a signal indicating whether a subscription is active.</p>
   <li>No user accounts or sign-in</li>
   <li>No analytics, crash reporting, or usage tracking</li>
   <li>No advertising or ad networks</li>
-  <li>No access to your device's location</li>
+  <li>No location tracking in the background</li>
   <li>No sharing of your data with third parties</li>
 </ul>
 
